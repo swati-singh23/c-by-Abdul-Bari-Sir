@@ -1,0 +1,237 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+#page{
+    padding: 30px;;
+    position: relative;
+    height: 99vh;
+    width: 99vw;
+    background:linear-gradient(to right,#f72585,#4cc9f0);
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right,#f72585,#4cc9f0);
+}
+
+header {
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo  a{
+
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #100f18;
+}
+
+nav ul {
+    list-style-type: none;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #151515;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #00c8ff; 
+}
+
+.AboutMe{
+    color: #181616; 
+    padding: 40%;
+    text-align: center;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5%;
+    color: #252222;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+.About  p {
+    color: #191825;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+.profile-image {
+    float: left;
+    position: absolute;
+    top:20%;
+    right:0%;
+    width: 510px;
+    height: 398px; 
+    object-fit: cover;   
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1d1713; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px; 
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #fa9f0c;
+}
+
+#page1{
+    background:linear-gradient(to right,#f72585,#4cc9f0);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#page1 h2{
+    color: rgb(16, 33, 26);
+    text-align: center;
+    font-size: 5rem;
+    margin: 1rem 0:
+}
+.work{
+    padding-right: 10%;
+    padding-left: 10%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.work .workbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: 2px solid fuchsia;
+    padding: 2rem;
+    margin: 1rem;
+}
+.work .workbox.desc{
+    width: 75%;
+    color: #e30e20;
+}
+.work .workbox.desc h3{
+    color: #1c0ee3;
+    margin-bottom: 3px;
+}
+.work .workbox.desc p{
+  margin: 0px;
+}
+
+#page2{
+    position: relative;
+    height: vh;
+    width: 100vw;
+    background-color: #fff;
+    background:linear-gradient(to right,#f72585,#4cc9f0);
+}
+
+.container1{
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ea529900;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(15, 248, 232);
+    
+}
+.container1 h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0e0e0e;
+}
+form input,
+form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0ede6;
+    color: #c64752;
+}
+form input:focus,
+form textarea:focus{
+    outline: none;
+    box-shadow: 0 0 5px cornflowerblue;
+
+}
+form button{
+    display: block;
+    width:100%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #f509b6;
+    color: #0f0c0c;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+form button:hover{
+    background-color: #f81884;
+
+}
+.footer {
+    background:linear-gradient(to right,#f72585,#4cc9f0);
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 40px;
+}
+.footer-content .Social-Media .icon-links a{
+    font-size: 25px;
+}
+.footer p{
+    font-size: 20px;
+}
