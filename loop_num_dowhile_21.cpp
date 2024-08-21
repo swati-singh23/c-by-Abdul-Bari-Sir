@@ -4,16 +4,17 @@ using namespace std;
 
 int main()
 {
-
-    //printing numbers 1 to 10 using while loop
-    int n,i=0;
-    cout<<"enter n";
-    cin>>n; 
-    while(i<=n)
-    {
+   int n, i=0;
+   
+   //printing numbers 1 to 10 using do while loop
+   cout<<"enter n";
+   cin>>n;
+   do{
         cout<<i<<endl;
         i++;
-    }
+
+     }while(i<=n);
+
 
     return 0;
 }
