@@ -8,10 +8,12 @@ int main()
     {
         for(j=0;j<4;j++)
         {
-            if(i<=j)
+            if(j>=i)
             {
                 cout<<"*";
             }
+            else
+                cout<<" ";
         }
         cout<<endl;
     }
